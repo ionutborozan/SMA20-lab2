@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lab2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:5:5-34:19
+12        android:allowBackup="true"
+12-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\borozani\.gradle\caches\transforms-2\files-2.1\c24177ae83091978e5c4ae83bccf2f01\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:11:9-40
+22        <activity android:name="com.example.lab2.MainActivity" >
+22-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:12:9-18:20
+22-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:12:19-47
+23            <intent-filter>
+23-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:13:13-17:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:14:17-69
+24-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:14:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:16:17-77
+26-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:16:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.example.lab2.Pop1" >
+29-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:19:9-25:20
+29-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:19:19-39
+30            <intent-filter>
+30-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:13:13-17:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:14:17-69
+31-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:14:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:16:17-77
+33-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:16:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.example.lab2.Pop2" >
+36-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:27:9-33:20
+36-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:27:19-39
+37            <intent-filter>
+37-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:13:13-17:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:14:17-69
+38-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:14:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:16:17-77
+40-->C:\Users\borozani\AndroidStudioProjects\Lab2\app\src\main\AndroidManifest.xml:16:27-74
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>
